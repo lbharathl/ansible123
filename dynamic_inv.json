@@ -1,0 +1,14 @@
+{
+    'db' : {
+        'hosts' : [host1,host2],
+        'vars' : {
+            'group_name' : 'Database group'
+        }
+    },
+    'app' : {
+        'hosts' : [host3,host4],
+        'vars' : {
+            'group_name':'Application group'
+        }
+    }
+}
